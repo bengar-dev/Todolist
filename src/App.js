@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className='container mt-4 flex flex-col'>
+    <div className='container ml-auto mr-auto mt-4 flex flex-col'>
       <h1 className='font-bold text-2xl text-center'>TodoList</h1>
       <form className='p-1 flex flex-col space-y-2'> 
         <label htmlFor='list' className='p-1 font-bold text-cyan-600'>Chose à faire</label>
